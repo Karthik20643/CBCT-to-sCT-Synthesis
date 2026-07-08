@@ -3285,14 +3285,14 @@ for patient_id in patient_folders:
 # ==========================================================
 # FINAL AVERAGE SCORES FOR THE THESIS
 # ==========================================================
-print("\n" + "="*50)
-print("🏆 FINAL 3D METRICS (APPLES-TO-APPLES)")
-print("="*50)
-print(f"Total Patients Evaluated: {len(all_mae)}")
-print(f"Average MAE  : {np.mean(all_mae):.2f} HU")
-print(f"Average PSNR : {np.mean(all_psnr):.2f} dB")
-print(f"Average SSIM : {np.mean(all_ssim):.4f}")
-print("="*50)
+# print("\n" + "="*50)
+# print("🏆 FINAL 3D METRICS (APPLES-TO-APPLES)")
+# print("="*50)
+# print(f"Total Patients Evaluated: {len(all_mae)}")
+# print(f"Average MAE  : {np.mean(all_mae):.2f} HU")
+# print(f"Average PSNR : {np.mean(all_psnr):.2f} dB")
+# print(f"Average SSIM : {np.mean(all_ssim):.4f}")
+# print("="*50)
 
 
 # In[ ]:
