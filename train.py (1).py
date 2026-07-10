@@ -3301,22 +3301,6 @@ print("="*50)
 
 
 
-# class UFormerDataset(Dataset):
-#     def __init__(self, data_dir, valid_ids=None, target_size=(256, 256)):
-#         super().__init__()
-#         self.data_dir = data_dir
-#         self.target_size = target_size
-        
-#         # Grab all files
-#         all_files = sorted(glob.glob(os.path.join(data_dir, "cbct", "*.npy")))
-        
-#         # FILTERING LOGIC: Only keep slices belonging to the valid patient IDs
-#         if valid_ids is not None:
-#             self.cbct_files = [
-#                 f for f in all_files 
-#                 if os.path.basename(f).split('_')[0] in valid_ids
-#             ]
-#         else:
-#             self.cbct_files = all_files
+
 
 
