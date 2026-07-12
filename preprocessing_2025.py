@@ -116,7 +116,7 @@ def __getitem__(self, idx):
         # ==========================================
         # Clinical window: -1000 to +1000 HU
         MIN_HU = -1000.0
-        MAX_HU = 1000.0
+        MAX_HU = 3000.0
         
         cbct_array = np.clip(cbct_array, MIN_HU, MAX_HU)
         ct_array = np.clip(ct_array, MIN_HU, MAX_HU)
